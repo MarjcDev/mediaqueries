@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg");
+}
+
+
+@media screen and (max-width:375px) {
+    .container{
+        margin: 25px 25px;
+        display: inline-block;
+      }
+    .container>img{
+       width: 70%;
+      }
+      .info{
+        color: white;
+        
+      }
+
+}
+@media screen and (min-width:376px) and (max-width:1440px){
+  nav{
+    margin: 0;
+    padding: 5px;
+  }
+  nav>img{
+    width: 20%;
+  }
+  .container{
+    margin: 15px 30px;
+    position: relative;
+  }
+  .container, .info {
+    display: inline-block;
+    color: white;
+  }
+  .container>img{
+    width: 50%;
+  }
+  .info{
+    position: absolute;
+    margin: 0 6px;
+    padding: 11px;
+  }
+ 
+}
+button{
+    border-radius: 18%;
+    background-color: white;
+    color:  hsl(257, 40%, 49%);
+  }
